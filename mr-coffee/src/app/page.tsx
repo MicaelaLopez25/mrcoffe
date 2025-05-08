@@ -91,8 +91,8 @@ export default function Home() {
       {/* Bottom navigation */}
       <footer className="footer">
         <nav className="nav-bar">
-          <Link href="/" className="nav-item">
-            <Star className="nav-icon" />
+          <Link href="/" className="nav-item active">
+             <Star className="nav-icon filled" />
             <span className="nav-text">Menu</span>
           </Link>
           <Link href="/productos" className="nav-item">
